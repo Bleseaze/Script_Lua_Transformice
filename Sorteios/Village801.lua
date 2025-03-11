@@ -201,7 +201,7 @@ ui.addTextArea(0, "<p align='center'><a href='event:entrada'>Participar do sorte
 ui.addTextArea(-1, "<p align='center'><a href='event:inicio'>Iniciar", adm, 1990, 780, 150, 20, 1, 0x0000FF, 0.5, false)
 ui.addTextArea(-2, "<p align='center'><a href='event:lista'>Lista de participantes", nil, 1460, 780, 150, 20, 1, 0xFF00FF, 0.5, false)
 ui.addTextArea(-3, "<p align='center'><font size='20px'>"..nome, nil, 1650, 460, 425, 30, 1, 0xC3A13C, 0.5, false)
-ui.addTextArea(-4, "<p align='center'><a href='event:discord'>Discord</a> | <a href='event:instagram'>Instagram</a>", p, 1625, 750, 340, 25, 1, 0x000000, 0, false)
+ui.addTextArea(-4, "<p align='center'><a href='event:discord'>Discord</a> | <a href='event:whatsapp'>Whatsapp</a>", p, 1625, 750, 340, 25, 1, 0x000000, 0, false)
 tfm.exec.setUIMapName("Script de sorteios | editado por: Bleseaze#8245")
 
 function eventTextAreaCallback(id, p, cmd)
@@ -229,8 +229,8 @@ function eventTextAreaCallback(id, p, cmd)
 			executarfogos()
     elseif cmd == "discord" then
         ui.addPopup(0, 2, "<p align='center'>❥ Nosso servidor: discord.gg/RDc33tqpGM", p, 1620, 430, 340, false)
-    elseif cmd == "instagram" then
-        ui.addPopup(0, 2, "<p align='center'>❥ Perfil oficial: @purple.peacocks", p, 1620, 430, 340, false)
+    elseif cmd == "whatsapp" then
+        ui.addPopup(0, 2, "<p align='center'>❥ Canal oficial: chat.whatsapp.com/K0WEHHQAIj2C51hvmGNysH", p, 1620, 430, 340, false)
     end
 end
 
@@ -309,7 +309,7 @@ ui.addTextArea(0, "<p align='center'><a href='event:entrada'>Participar do sorte
 ui.addTextArea(-1, "<p align='center'><a href='event:inicio'>Iniciar", adm, 1990, 780, 150, 20, 1, 0x0000FF, 0.5, false)
 ui.addTextArea(-2, "<p align='center'><a href='event:lista'>Lista de participantes", nil, 1460, 780, 150, 20, 1, 0xFF00FF, 0.5, false)
 ui.addTextArea(-3, "<p align='center'><font size='20px'>"..nome, nil, 1650, 460, 425, 30, 1, 0xC3A13C, 0.5, false)
-ui.addTextArea(-4, "<p align='center'><a href='event:discord'>Discord</a> | <a href='event:instagram'>Instagram</a>", p, 1625, 750, 340, 25, 1, 0x000000, 0, false)
+ui.addTextArea(-4, "<p align='center'><a href='event:discord'>Discord</a> | <a href='event:whatsapp'>Whatsapp</a>", p, 1625, 750, 340, 25, 1, 0x000000, 0, false)
 tfm.exec.setUIMapName("Script de sorteios | editado por: Bleseaze#8245")
 ui.removeTextArea(-12, nil)   
 ui.removeTextArea(-15, nil)     
